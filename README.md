@@ -4,7 +4,7 @@ An ESP32-based collision warning system that uses ultrasonic distance sensing, a
 
 ## Project Overview
 
-This project demonstrates a basic Advanced Driver Assistance System (ADAS) concept by monitoring the distance between the vehicle/system and an obstacle. 
+This project demonstrates a basic Advanced Driver Assistance System (ADAS) concept for low-end by monitoring the distance between the vehicle/system and an obstacle. 
 
 The ultrasonic sensor continuously measures obstacle distance, while the ESP32 processes the sensor readings. The system determines whether the obstacle is within the configured warning range. When appropriate, the LCD displays a warning message, and the buzzer provides an audible alert when necessary. 
 
