@@ -115,10 +115,16 @@ The buzzer operates on a continuous feedback loop based on the distance measurem
 
 ```text
 ADAS-Collision-Warning-System/
-├── ADAS_Collision_Warning/
+├── code/
 │   └── ADAS_Collision_Warning.ino
 └── README.md
 ```
+
+## Source Code
+
+The complete ESP32 firmware for this prototype is available inside the `code/` directory.
+
+[View ESP32 Source Code](./code/ADAS_Collision_Warning.ino)
 
 ## Required Libraries
 
@@ -127,20 +133,14 @@ ADAS-Collision-Warning-System/
 
 ## Installation / Setup
 
-### Step 1 — Hardware Setup
-Connect the ESP32, Ultrasonic Sensor (HC-SR04), I2C LCD, and Buzzer according to the GPIO definitions in the Circuit / Connection Table above.
+### How to use the code
 
-### Step 2 — Software Setup
-Set up the appropriate development environment (e.g., Arduino IDE or PlatformIO).
-
-### Step 3 — Libraries
-Install any required libraries for the LCD and Ultrasonic Sensor.
-
-### Step 4 — Upload
-Select the correct ESP32 board in your IDE and upload the firmware.
-
-### Step 5 — Run
-Power the ESP32 system and observe the LCD and buzzer behavior as obstacles move closer to the sensor.
+1. **Open the source code:** Navigate to the `code/` directory and open `ADAS_Collision_Warning.ino` in the Arduino IDE.
+2. **Install required libraries:** Ensure that you have the `LiquidCrystal I2C` library installed (by Frank de Brabander) along with the built-in `Wire` library.
+3. **Select ESP32 board:** Select the appropriate ESP32 board configuration in your IDE.
+4. **Connect hardware:** Connect the ESP32, Ultrasonic Sensor (HC-SR04), I2C LCD, and Buzzer according to the exact GPIO definitions in the Circuit / Connection Table above.
+5. **Upload:** Compile and upload the firmware to the ESP32.
+6. **Run:** Power the system and observe the LCD and buzzer response as an obstacle approaches the sensor.
 
 ## How It Works
 
