@@ -109,7 +109,8 @@ The buzzer operates on a continuous feedback loop based on the distance measurem
 
 ## Circuit Diagram
 
-*(<img width="250" height="150" alt="image" src="https://github.com/user-attachments/assets/9934368d-ae5e-43a5-bdc8-30cdcdbe230b" />)*
+*(<img width="1024" height="572" alt="image" src="https://github.com/user-attachments/assets/4daf4a99-236c-4e5d-af78-ce6b4c56a390" />
+)*
 
 ## Project Structure
 
